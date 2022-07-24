@@ -2,10 +2,10 @@
 
 function digitize(n) {
   let arr = n
-    .toString()
-    .split("")
-    .map((num) => parseInt(num))
-    .reverse();
+    .toString() // stringify the number
+    .split("") // make each digit an item in an array
+    .map((num) => parseInt(num)) // convert all the items back into numbers
+    .reverse(); // reverse the order of the array
   return arr;
 }
 
