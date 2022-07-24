@@ -9,7 +9,8 @@ function digitize(n) {
   return arr;
 }
 
-console.log(digitize(10256));
+const reversedNums = digitize(10256);
+console.log(reversedNums);
 
 // solution #2
 
@@ -17,4 +18,5 @@ function digitize2(n) {
   return String(n).split("").map(Number).reverse();
 }
 
-console.log(digitize2(5678));
+const reversedNums2 = digitize2(5678);
+console.log(reversedNums2);
