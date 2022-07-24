@@ -1,4 +1,4 @@
-console.log("hello");
+// solution #1
 
 function digitize(n) {
   let arr = n
@@ -10,3 +10,11 @@ function digitize(n) {
 }
 
 console.log(digitize(10256));
+
+// solution #2
+
+function digitize2(n) {
+  return String(n).split("").map(Number).reverse();
+}
+
+console.log(digitize2(5678));
