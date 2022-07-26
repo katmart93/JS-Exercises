@@ -34,6 +34,6 @@ console.log(sum(numArr));
 console.log(`result is: ${result}`);
 
 const incrementResult = result + 2;
-console.log(`ncremented result is: ${incrementResult}`);
+console.log(`incremented result is: ${incrementResult}`);
 
 document.querySelector(".sum").innerHTML = result;
